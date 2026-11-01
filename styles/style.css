@@ -8,6 +8,15 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: #757575;
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
 ul {
     list-style: none;
 }
@@ -32,6 +41,16 @@ ul {
     color: #FD6E0A;
 }
 
+.header {
+    background-image: url("./../images/developer.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top left;
+    background-color: #FFF8F3;
+
+    border: 1px solid red;
+}
+
 .logo {
     font-size: 45px;
 }
@@ -46,4 +65,32 @@ ul {
     align-items: center;
     gap: 20px;
     font-size: 20px;
+}
+
+/* banner section style */
+
+.greetings {
+    font-size: 45px;
+    font-weight: 400;
+
+}
+
+.title {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-conent,
+.banner-img {
+    width: 50%;
+}
+
+
+
+
+
+.banner {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
 }
