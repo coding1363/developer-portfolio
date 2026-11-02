@@ -13,6 +13,10 @@ p {
     margin: 10px 0;
 }
 
+section {
+    padding: 50px 80px;
+}
+
 img {
     width: 100%;
 }
@@ -44,11 +48,11 @@ ul {
 .header {
     background-image: url("./../images/developer.png");
     background-repeat: no-repeat;
-    background-size: 80px;
+    background-size: 75px;
     background-position: top left;
     background-color: #FFF8F3;
 
-    border: 1px solid red;
+
 }
 
 .logo {
@@ -93,4 +97,68 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 0 80px;
+}
+
+/* about section styles */
+
+
+
+.about-heading {
+    font-size: 35px;
+}
+
+.about-container {
+    background: #FFF8F3;
+    padding: 80px 130px;
+    border-radius: 5px;
+}
+
+.about-content {
+    padding: 20px 60px;
+    background: #fff;
+    border: 1px solid black;
+}
+
+.about-content h3 {
+    text-align: center;
+}
+
+.about-content p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.about-info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.info {
+    margin: 10px 0;
+}
+
+.info-title {
+    margin: 0;
+    font-weight: 700 !important;
+}
+
+.info-value {
+    color: black;
+    margin: 0;
+}
+
+/* skill styles */
+.skill-heading {
+    font-size: 35px;
+    text-align: center;
+}
+
+.skill-heading-container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.skill-heading-container>p {
+    text-align: center;
 }
