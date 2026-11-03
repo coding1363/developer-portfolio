@@ -25,6 +25,11 @@ ul {
     list-style: none;
 }
 
+.section-heading {
+    font-size: 35px;
+    text-align: center;
+}
+
 .flex {
     display: flex;
 }
@@ -103,9 +108,7 @@ ul {
 
 
 
-.about-heading {
-    font-size: 35px;
-}
+
 
 .about-container {
     background: #FFF8F3;
@@ -149,10 +152,6 @@ ul {
 }
 
 /* skill styles */
-.skill-heading {
-    font-size: 35px;
-    text-align: center;
-}
 
 .skill-heading-container {
     width: 65%;
@@ -161,4 +160,63 @@ ul {
 
 .skill-heading-container>p {
     text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+
+}
+
+.skill {
+    box-shadow: 0px 0px 21px -11px black;
+    padding: 30px;
+}
+
+.skill-img {
+    width: 15%;
+}
+
+.skill-title {
+    margin: 15px 0;
+}
+
+/* Resume styles */
+
+.resume-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.resume-left,
+.resume-right {
+    padding: 70px;
+}
+
+.resume-heading {
+    font-size: 30px;
+}
+
+.resume-item {
+    padding: 30px 0;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.resume-year {
+    font-weight: bold !important;
+}
+
+.resume-title {
+    font-size: 25px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
 }
