@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+input,
+textarea {
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+
+
+
+
 a {
     text-decoration: none;
 }
@@ -219,4 +235,35 @@ ul {
 .btn-container {
     display: flex;
     justify-content: center;
+}
+
+/* footer styles */
+#footer {
+    padding: 50px 80px;
+    background: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-heading {
+    font-size: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.contact-info-left,
+.contact-info-right {
+    width: 50%;
+}
+
+.contact-info-right {
+    padding: 0 60px;
 }
